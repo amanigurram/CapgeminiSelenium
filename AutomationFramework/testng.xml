@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.Dolibarr.Financial_Scripts.AddInvoice_InFinance_DB_06"/>
+      <class name="Dolibar.ThirdPartyCreate"/>
+      <class name="com.Dolibarr.Home_Scripts.CreateGroupTC_04"/>
+      <class name="com.Dolibarr.ThirdParty_Scripts.DeleteCustomerDB_01"/>
+      <class name="com.Dolibarr.Home_Scripts.CreateUserTC_03"/>
+      <class name="com.Dolibarr.Projects_Scripts.CreateProjectDB_02"/>
+      <class name="com.Dolibarr.ThirdParty_Scripts.AddInvoice_TC_05"/>
+      <class name="com.Dolibarr.ThirdParty_Scripts.DolibarNewCustomerTC_02"/>
+      <class name="com.Dolibarr.ThirdParty_Scripts.CreateSupplier"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
